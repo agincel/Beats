@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Beats.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DEFF1B8A-3144-40EC-ACEB-895D498D60CA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Beats.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BeatsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1E824192-AE2C-4B50-B9B6-0AA729EBB9CD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Beats">
+      <UniqueIdentifier>{B0221517-8231-4645-8748-285975CF0754}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Beats\AudioFunctionLibrary.cpp">
+      <Filter>Source\Beats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Beats\AudioFunctionLibrary.h">
+      <Filter>Source\Beats</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Beats\BeatActor.cpp">
+      <Filter>Source\Beats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Beats\BeatActor.h">
+      <Filter>Source\Beats</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Beats\Beats.Build.cs">
+      <Filter>Source\Beats</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Beats\Beats.cpp">
+      <Filter>Source\Beats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Beats\Beats.h">
+      <Filter>Source\Beats</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Beats\GetPlayback.h">
+      <Filter>Source\Beats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Beats\GetPlaybackActor.h">
+      <Filter>Source\Beats</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Beats\GetPlayback.cpp">
+      <Filter>Source\Beats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Beats\GetPlaybackActor.cpp">
+      <Filter>Source\Beats</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
