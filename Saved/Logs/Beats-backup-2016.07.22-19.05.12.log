@@ -1,0 +1,619 @@
+﻿Log file open, 07/20/16 19:59:56
+LogInit:Display: Running engine for game: Beats
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(358494926) SRandInit(358494927).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.098721
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.20-23.59.56:616][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.20-23.59.56:616][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.20-23.59.56:626][  0]LogInit: Computer: DESKTOP-TA850RC
+[2016.07.20-23.59.56:626][  0]LogInit: User: Adam
+[2016.07.20-23.59.56:626][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.07.20-23.59.56:626][  0]LogInit: High frequency timer resolution =2.338349 MHz
+[2016.07.20-23.59.56:626][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.07.20-23.59.56:626][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.20-23.59.56:626][  0]LogMemory: Process Physical Memory: 313.13 MB used, 313.13 MB peak
+[2016.07.20-23.59.56:626][  0]LogMemory: Process Virtual Memory: 314.94 MB used, 314.94 MB peak
+[2016.07.20-23.59.56:626][  0]LogMemory: Physical Memory: 4891.18 MB used, 16203.17 MB total
+[2016.07.20-23.59.56:626][  0]LogMemory: Virtual Memory: 637.08 MB used, 134217728.00 MB total
+[2016.07.20-23.59.56:844][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.20-23.59.57:286][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.20-23.59.57:329][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 750M' (Feature Level 11_0)
+[2016.07.20-23.59.57:329][  0]LogD3D11RHI:       1992MB of dedicated video memory, 0MB of dedicated system memory, and 8101MB of shared system memory, 2 output[s]
+[2016.07.20-23.59.57:336][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.07.20-23.59.57:336][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2016.07.20-23.59.57:338][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.20-23.59.57:338][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8101MB of shared system memory, 0 output[s]
+[2016.07.20-23.59.57:338][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.20-23.59.57:341][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.20-23.59.57:342][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 750M
+[2016.07.20-23.59.57:342][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.07.20-23.59.57:342][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.07.20-23.59.57:342][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.20-23.59.57:361][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.20-23.59.57:380][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Intermediate/Shaders/WorkingDirectory/8460/).
+[2016.07.20-23.59.57:380][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Adam/AppData/Local/Temp/UnrealShaderWorkingDir/151D22C34FDD21D0613775A1E3FD18F8/'.
+[2016.07.20-23.59.57:380][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.20-23.59.58:829][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.20-23.59.58:841][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.20-23.59.58:854][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.20-23.59.58:868][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.20-23.59.58:888][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.20-23.59.58:900][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.20-23.59.58:912][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.20-23.59.58:924][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.20-23.59.58:941][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.20-23.59.58:959][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.20-23.59.58:970][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.20-23.59.59:002][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.20-23.59.59:002][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.20-23.59.59:011][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.20-23.59.59:055][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.20-23.59.59:065][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.20-23.59.59:077][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.20-23.59.59:095][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.20-23.59.59:108][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.20-23.59.59:108][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.20-23.59.59:486][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.20-23.59.59:537][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/Adam/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.20-23.59.59:537][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Adam/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.07.20-23.59.59:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.20-23.59.59:537][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.20-23.59.59:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.20-23.59.59:537][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.20-23.59.59:551][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.20-23.59.59:563][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.20-23.59.59:795][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.20-23.59.59:796][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.20-23.59.59:837][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.07.20-23.59.59:997][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.20-23.59.59:997][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.20-23.59.59:997][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.21-00.00.00:319][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.07.21-00.00.00:319][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.07.21-00.00.00:319][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.21-00.00.00:339][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.21-00.00.01:330][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.21-00.00.01:330][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.21-00.00.01:506][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.21-00.00.01:506][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.21-00.00.01:506][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.21-00.00.01:506][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.21-00.00.01:506][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.21-00.00.01:506][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.21-00.00.02:491][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.07.21-00.00.02:532][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.21-00.00.02:741][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.07.21-00.00.03:096][  0]SourceControl: Info Source control is disabled
+[2016.07.21-00.00.04:712][  0]SourceControl: Info Source control is disabled
+[2016.07.21-00.00.04:757][  0]SourceControl: Info Source control is disabled
+[2016.07.21-00.00.04:786][  0]SourceControl: Info Source control is disabled
+[2016.07.21-00.00.05:161][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.07.21-00.00.05:340][  0]LogEngine: Initializing Engine...
+[2016.07.21-00.00.05:529][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.21-00.00.05:535][  0]LogInit: XAudio2 using 'ASUS VS239 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.21-00.00.05:555][  0]LogInit: FAudioDevice initialized.
+[2016.07.21-00.00.05:582][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/Adam/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.21-00.00.05:586][  0]LogInit: Texture streaming: Enabled
+[2016.07.21-00.00.05:655][  0]LogInit: Transaction tracking system initialized
+[2016.07.21-00.00.05:749][  0]BlueprintLog: New page: Editor Load
+[2016.07.21-00.00.06:275][  0]LocalizationService: Info Localization service is disabled
+[2016.07.21-00.00.06:564][  0]LogConsoleResponse:Display: 
+[2016.07.21-00.00.06:724][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.21-00.00.06:724][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.21-00.00.06:724][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.21-00.00.06:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adam/Documents/Unreal Projects/Beats/Content/' took 0.01s
+[2016.07.21-00.00.06:950][  0]SourceControl: Info Source control is disabled
+[2016.07.21-00.00.06:950][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.21-00.00.06:951][  0]LightingResults: New page: Lighting Build
+[2016.07.21-00.00.06:955][  0]MapCheck: New page: Map Check
+[2016.07.21-00.00.06:955][  0]LightingResults: New page: Lighting Build
+[2016.07.21-00.00.07:010][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave beep...
+[2016.07.21-00.00.07:050][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.07.21-00.00.07:051][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2016.07.21-00.00.07:055][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave 120bpm...
+[2016.07.21-00.00.08:491][  0]LogAIModule: Creating AISystem for world Test
+[2016.07.21-00.00.08:498][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.21-00.00.08:499][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.21-00.00.08:576][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.085ms to complete.
+[2016.07.21-00.00.08:576][  0]LogFileHelpers: Loading map 'Test' took 1.626
+[2016.07.21-00.00.08:727][  0]LogCollectionManager: Loaded 1 collections in 0.002580 seconds
+[2016.07.21-00.00.08:772][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adam/Documents/Unreal Projects/Beats/Saved/Collections/' took 0.01s
+[2016.07.21-00.00.08:772][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adam/Documents/Unreal Projects/Beats/Content/Developers/Adam/Collections/' took 0.01s
+[2016.07.21-00.00.08:772][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adam/Documents/Unreal Projects/Beats/Content/Collections/' took 0.01s
+[2016.07.21-00.00.08:772][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2016.07.21-00.00.08:772][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.07.21-00.00.08:781][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 1997 classes and 351 folders.
+[2016.07.21-00.00.08:785][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.21-00.00.08:785][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.21-00.00.08:787][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0016 seconds. Added 12 classes and 0 folders.
+[2016.07.21-00.00.08:793][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2016.07.21-00.00.08:821][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2016.07.21-00.00.08:883][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2016.07.21-00.00.08:917][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2016.07.21-00.00.08:946][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.21-00.00.08:952][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.21-00.00.09:015][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2016.07.21-00.00.09:015][  0]LogLoad: Full Startup: 13.72 seconds (BP compile: 0.02 seconds)
+[2016.07.21-00.00.09:015][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.21-00.00.09:015][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.21-00.00.09:033][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.21-00.00.09:033][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.21-00.00.09:033][  0]LogOcInput: OculusInput pre-init called
+[2016.07.21-00.00.09:097][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.21-00.00.09:257][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.07.21-00.00.09:357][  1]LogAssetRegistry: Asset discovery search completed in 6.6380 seconds
+[2016.07.21-00.00.09:357][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000001 seconds (found 0 objects)
+[2016.07.21-00.00.09:357][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000017 seconds (updated 0 objects)
+[2016.07.21-00.01.20:895][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.21-00.01.20:901][ 80]PIE: New page: PIE session: Test (Jul 20, 2016, 3:01:20 PM)
+[2016.07.21-00.01.20:901][ 80]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_Test
+[2016.07.21-00.01.20:907][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005360s)
+[2016.07.21-00.01.20:909][ 80]LogAIModule: Creating AISystem for world Test
+[2016.07.21-00.01.20:910][ 80]LogPlayLevel: PIE: World Init took: (0.002539s)
+[2016.07.21-00.01.20:910][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/Test.Test to /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test (0.008444s)
+[2016.07.21-00.01.20:963][ 80]LogInit: XAudio2 using 'ASUS VS239 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.21-00.01.20:986][ 80]LogInit: FAudioDevice initialized.
+[2016.07.21-00.01.21:680][ 80]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.07.21-00.01.21:683][ 80]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2016.07.20-20.01.21
+[2016.07.21-00.01.21:684][ 80]LogWorld: Bringing up level for play took: 0.002147
+[2016.07.21-00.01.21:689][ 80]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 9 classes and 0 folders.
+[2016.07.21-00.01.21:690][ 80]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_Test 1.588
+[2016.07.21-00.01.25:690][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.07.21-00.01.29:007][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.21-00.01.29:007][468]PIE: New page: PIE session: Test (Jul 20, 2016, 3:01:29 PM)
+[2016.07.21-00.01.29:007][468]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_Test
+[2016.07.21-00.01.29:014][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007129s)
+[2016.07.21-00.01.29:016][468]LogAIModule: Creating AISystem for world Test
+[2016.07.21-00.01.29:017][468]LogPlayLevel: PIE: World Init took: (0.002294s)
+[2016.07.21-00.01.29:017][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/Test.Test to /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test (0.010187s)
+[2016.07.21-00.01.29:070][468]LogInit: XAudio2 using 'ASUS VS239 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.21-00.01.29:100][468]LogInit: FAudioDevice initialized.
+[2016.07.21-00.01.29:223][468]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.07.21-00.01.29:235][468]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2016.07.20-20.01.29
+[2016.07.21-00.01.29:236][468]LogWorld: Bringing up level for play took: 0.008613
+[2016.07.21-00.01.29:271][468]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_Test 1.169
+[2016.07.21-00.01.29:325][469]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:4473).
+[2016.07.21-00.01.33:280][660]LogSavePackage: Save=27.81ms
+[2016.07.21-00.01.33:280][660]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTestEF5A7DAA416D9A523DD5C7AC4A28A92B.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.01.33:284][660]LogSavePackage: Total save time: 38.66ms
+[2016.07.21-00.01.33:284][660]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.02.22:920][632]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 108 classes and 0 folders.
+[2016.07.21-00.03.45:476][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.07.21-00.03.45:559][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.03.45:713][484]LogSavePackage: Save=147.37ms
+[2016.07.21-00.03.45:713][484]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlock18FB94764C52F46DD74FBB8CC13FF38E.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.03.45:721][484]LogSavePackage: Total save time: 160.45ms
+[2016.07.21-00.03.45:721][484]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.03.46:602][537]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.03.46:709][537]BlueprintEditorCompileResults: Info [0231.41] Compile of BeatBlock successful! [in 107 ms]
+[2016.07.21-00.03.48:178][612]LogSavePackage: Save=13.93ms
+[2016.07.21-00.03.48:178][612]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTestFCE5127945C988FCB61584802D33E1A6.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.03.48:180][612]LogSavePackage: Total save time: 19.36ms
+[2016.07.21-00.03.48:180][612]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.04.30:118][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.07.21-00.04.30:290][219]LogSavePackage: Save=13.04ms
+[2016.07.21-00.04.30:290][219]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Test7C5BFDB841D0BC61216876BB56E50A1B.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.04.30:294][219]LogSavePackage: Total save time: 20.84ms
+[2016.07.21-00.04.30:294][219]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.04.30:313][219]LogFileHelpers: Saving map 'Test' took 0.156
+[2016.07.21-00.04.30:342][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.04.30:421][219]LogSavePackage: Save=73.71ms
+[2016.07.21-00.04.30:421][219]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlock599F572D443F4BD323201897BD4B5654.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.04.30:424][219]LogSavePackage: Total save time: 80.64ms
+[2016.07.21-00.04.30:424][219]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.04.31:158][263]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.04.31:250][263]BlueprintEditorCompileResults: Info [0275.95] Compile of BeatBlock successful! [in 91 ms]
+[2016.07.21-00.04.32:981][351]LogSavePackage: Save=13.46ms
+[2016.07.21-00.04.32:981][351]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTest894AA7A749D2F2127C38B8AAABF1AD14.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.04.32:983][351]LogSavePackage: Total save time: 18.64ms
+[2016.07.21-00.04.32:983][351]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.06.02:643][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.07.21-00.06.19:662][877]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.06.19:765][877]BlueprintEditorCompileResults: Info [0384.47] Compile of BeatBlock successful! [in 102 ms]
+[2016.07.21-00.06.42:427][ 45]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.07.21-00.06.42:939][ 46]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.07.21-00.06.43:823][ 47]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.07.21-00.06.46:303][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_VariableGet_294 or K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_VariableGet_294
+[2016.07.21-00.06.46:303][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9643 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9643
+[2016.07.21-00.06.46:303][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_VariableGet_300 or K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_VariableGet_300
+[2016.07.21-00.06.46:303][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_150 or K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CommutativeAssociativeBinaryOperator_150
+[2016.07.21-00.06.46:303][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CommutativeAssociativeBinaryOperator_37 or K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_37
+[2016.07.21-00.06.46:304][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9645 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9645
+[2016.07.21-00.06.46:304][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_123 or K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CommutativeAssociativeBinaryOperator_123
+[2016.07.21-00.06.46:304][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CommutativeAssociativeBinaryOperator_37 or K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_37
+[2016.07.21-00.06.46:304][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_150 or K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CommutativeAssociativeBinaryOperator_150
+[2016.07.21-00.06.46:304][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_IfThenElse_50 or K2Node_IfThenElse /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_IfThenElse_50
+[2016.07.21-00.06.46:304][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_VariableSet_187 or K2Node_VariableSet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_VariableSet_187
+[2016.07.21-00.06.46:305][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_VariableSet_618 or K2Node_VariableSet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_VariableSet_618
+[2016.07.21-00.06.46:305][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_123 or K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CommutativeAssociativeBinaryOperator_123
+[2016.07.21-00.06.46:305][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_123 or K2Node_CommutativeAssociativeBinaryOperator /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CommutativeAssociativeBinaryOperator_123
+[2016.07.21-00.06.46:305][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9748 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9748
+[2016.07.21-00.06.46:305][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9750 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9750
+[2016.07.21-00.06.46:306][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_VariableSet_618 or K2Node_VariableSet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_VariableSet_618
+[2016.07.21-00.06.46:306][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9750 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9750
+[2016.07.21-00.06.46:306][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9749 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9749
+[2016.07.21-00.06.46:306][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9936 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9936
+[2016.07.21-00.06.46:306][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9751 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9751
+[2016.07.21-00.06.46:306][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9754 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9754
+[2016.07.21-00.06.46:307][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9755 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9755
+[2016.07.21-00.06.46:307][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9753 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9753
+[2016.07.21-00.06.46:308][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_VariableGet_1418 or K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_VariableGet_1418
+[2016.07.21-00.06.46:308][190]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_VariableGet_1518 or K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_VariableGet_1518
+[2016.07.21-00.07.34:478][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.07.21-00.07.34:986][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.07.21-00.07.42:202][402]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.07.42:296][402]BlueprintEditorCompileResults: Info [0467.00] Compile of BeatBlock successful! [in 94 ms]
+[2016.07.21-00.07.53:484][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9748 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9748
+[2016.07.21-00.07.53:484][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9750 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9750
+[2016.07.21-00.07.53:484][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9749 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9749
+[2016.07.21-00.07.53:484][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9750 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9750
+[2016.07.21-00.07.53:484][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_VariableSet_618 or K2Node_VariableSet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_VariableSet_618
+[2016.07.21-00.07.53:485][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9751 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9751
+[2016.07.21-00.07.53:485][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9936 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9936
+[2016.07.21-00.07.53:485][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9753 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9753
+[2016.07.21-00.07.53:485][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9755 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9755
+[2016.07.21-00.07.53:485][ 38]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_CallFunction_9754 or K2Node_CallFunction /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_CallFunction_9754
+[2016.07.21-00.08.20:610][426]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.08.20:717][426]BlueprintEditorCompileResults: Info [0505.42] Compile of BeatBlock successful! [in 106 ms]
+[2016.07.21-00.14.30:844][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.07.21-00.14.30:904][835]LogSavePackage: Save=16.39ms
+[2016.07.21-00.14.30:904][835]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Test_Auto1C4B7169B45156C3A60426795036156FA.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/Test_Auto1.umap'
+[2016.07.21-00.14.30:905][835]LogSavePackage: Total save time: 23.94ms
+[2016.07.21-00.14.30:905][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/Test_Auto1.umap
+[2016.07.21-00.14.30:907][835]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/Test' took 0.063
+[2016.07.21-00.14.30:907][835]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2016.07.21-00.14.30:921][835]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/Blueprints/BeatBlock] ([1] browsable assets)...
+[2016.07.21-00.14.30:976][835]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock]
+[2016.07.21-00.14.30:976][835]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/BeatBlock]
+[2016.07.21-00.14.31:089][835]LogSavePackage: Save=105.50ms
+[2016.07.21-00.14.31:089][835]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlock_Auto1B2336C3D4C2EE118FC2CE1BE091A6FCE.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Blueprints/BeatBlock_Auto1.uasset'
+[2016.07.21-00.14.31:091][835]LogSavePackage: Total save time: 114.08ms
+[2016.07.21-00.14.31:091][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Blueprints/BeatBlock_Auto1.uasset
+[2016.07.21-00.14.31:091][835]LogFileHelpers: Auto-saving content packages took 0.178
+[2016.07.21-00.29.48:545][971]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:EventGraph.K2Node_VariableGet_294 or K2Node_VariableGet /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock:Check Beat.K2Node_VariableGet_294
+[2016.07.21-00.29.48:545][971]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_294.EdGraphPin_28641''
+[2016.07.21-00.30.15:091][525]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.30.15:301][525]BlueprintEditorCompileResults: Info [1820.00] Compile of BeatBlock successful! [in 210 ms]
+[2016.07.21-00.31.06:637][541]LogSavePackage: Save=16.40ms
+[2016.07.21-00.31.06:637][541]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TestA516CA4D43405A094ED2EA83B2C932E4.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.31.06:641][541]LogSavePackage: Total save time: 31.85ms
+[2016.07.21-00.31.06:641][541]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.31.06:665][541]LogFileHelpers: Saving map 'Test' took 0.215
+[2016.07.21-00.31.06:694][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.31.06:799][541]LogSavePackage: Save=97.91ms
+[2016.07.21-00.31.06:799][541]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlock0F90AED840041F00A6F33E919DCA6C27.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.31.06:802][541]LogSavePackage: Total save time: 106.49ms
+[2016.07.21-00.31.06:802][541]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.31.07:130][561]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.31.07:251][561]BlueprintEditorCompileResults: Info [1871.95] Compile of BeatBlock successful! [in 120 ms]
+[2016.07.21-00.31.07:711][578]LogSavePackage: Save=14.18ms
+[2016.07.21-00.31.07:711][578]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Test571CB2864CD8FD2A443728ADAE0969D5.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.31.07:714][578]LogSavePackage: Total save time: 21.11ms
+[2016.07.21-00.31.07:714][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.31.07:735][578]LogFileHelpers: Saving map 'Test' took 0.154
+[2016.07.21-00.31.09:286][656]LogSavePackage: Save=14.90ms
+[2016.07.21-00.31.09:286][656]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTestBAA407B74381EBBF5E43C2B694206575.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.31.09:289][656]LogSavePackage: Total save time: 21.54ms
+[2016.07.21-00.31.09:289][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.31.32:273][490]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.31.32:370][490]BlueprintEditorCompileResults: Info [1897.07] Compile of BeatBlock successful! [in 96 ms]
+[2016.07.21-00.31.32:852][508]LogSavePackage: Save=13.54ms
+[2016.07.21-00.31.32:852][508]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Test2363C67F420323C27D164D82EEC09096.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.31.32:856][508]LogSavePackage: Total save time: 22.01ms
+[2016.07.21-00.31.32:856][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.31.32:874][508]LogFileHelpers: Saving map 'Test' took 0.154
+[2016.07.21-00.31.32:903][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.31.33:028][508]LogSavePackage: Save=114.59ms
+[2016.07.21-00.31.33:028][508]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlock3D76D2D0415FF2CA92939A82BF7AD210.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.31.33:032][508]LogSavePackage: Total save time: 126.88ms
+[2016.07.21-00.31.33:032][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.31.34:517][592]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.07.21-00.31.34:524][592]Recompiling Beats...
+[2016.07.21-00.31.34:524][592]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/DotNET/UnrealBuildTool.exe Beats -ModuleWithSuffix Beats 790 Win64 Development -editorrecompile -canskiplink "C:/Users/Adam/Documents/Unreal Projects/Beats/Beats.uproject"  -2015]
+[2016.07.21-00.31.34:550][592]Warning: Starting HotReload took  0.0s.
+[2016.07.21-00.31.36:042][671]CompilerResultsLog: New page: Compilation - Jul 20, 2016, 3:31:36 PM
+[2016.07.21-00.31.36:042][671]CompilerResultsLog: Info Creating makefile for hot reloading Beats (.uproject file is newer)
+[2016.07.21-00.31.36:043][671]LogMainFrame: MainFrame: Module compiling took 1.525 seconds
+[2016.07.21-00.31.36:043][671]Warning: HotReload failed, recompile failed
+[2016.07.21-00.31.38:219][751]LogSavePackage: Save=15.74ms
+[2016.07.21-00.31.38:219][751]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTestA49769AA4B63546E2605D2BC95FC6666.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.31.38:221][751]LogSavePackage: Total save time: 33.82ms
+[2016.07.21-00.31.38:221][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.32.27:836][988]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.32.27:940][988]BlueprintEditorCompileResults: Info [1952.64] Compile of BeatBlock successful! [in 103 ms]
+[2016.07.21-00.32.29:877][ 94]LogSavePackage: Save=13.54ms
+[2016.07.21-00.32.29:877][ 94]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Test3635EAD5426D83E876EF2382678870B9.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.32.29:880][ 94]LogSavePackage: Total save time: 21.30ms
+[2016.07.21-00.32.29:880][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.32.29:915][ 94]LogFileHelpers: Saving map 'Test' took 0.168
+[2016.07.21-00.32.29:952][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.32.30:045][ 94]LogSavePackage: Save=88.86ms
+[2016.07.21-00.32.30:045][ 94]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockCAAA023E4287C3228BD9D69FBECD1B26.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.32.30:051][ 94]LogSavePackage: Total save time: 98.30ms
+[2016.07.21-00.32.30:051][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.32.31:434][163]LogSavePackage: Save=13.69ms
+[2016.07.21-00.32.31:434][163]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTest5C91E63440F260E8234D70B0D783BA64.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.32.31:437][163]LogSavePackage: Total save time: 20.89ms
+[2016.07.21-00.32.31:437][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.33.12:452][934]LogTexture:Display: Building textures: S_AudioComponent (BGRA8)
+[2016.07.21-00.33.13:509][987]LogSavePackage: Save=13.33ms
+[2016.07.21-00.33.13:509][987]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TestC94A24C142DB8E5AF288868C76293A81.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.33.13:512][987]LogSavePackage: Total save time: 21.16ms
+[2016.07.21-00.33.13:513][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.33.13:531][987]LogFileHelpers: Saving map 'Test' took 0.157
+[2016.07.21-00.33.13:561][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.33.13:660][987]LogSavePackage: Save=93.41ms
+[2016.07.21-00.33.13:660][987]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockA410648C4A6CEEA66F1B899252E23B00.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.33.13:663][987]LogSavePackage: Total save time: 101.03ms
+[2016.07.21-00.33.13:664][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.33.14:304][ 25]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.33.14:401][ 25]BlueprintEditorCompileResults: Info [1999.10] Compile of BeatBlock successful! [in 96 ms]
+[2016.07.21-00.33.15:987][103]LogSavePackage: Save=17.18ms
+[2016.07.21-00.33.15:987][103]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TestA314F9CA486DDCD15E004FA7C2346E52.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.33.15:994][103]LogSavePackage: Total save time: 27.68ms
+[2016.07.21-00.33.15:994][103]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.33.16:027][103]LogFileHelpers: Saving map 'Test' took 0.245
+[2016.07.21-00.33.42:178][629]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.33.42:278][629]BlueprintEditorCompileResults: Info [2026.98] Compile of BeatBlock successful! [in 99 ms]
+[2016.07.21-00.33.42:729][646]LogSavePackage: Save=13.63ms
+[2016.07.21-00.33.42:729][646]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TestDF3816C040AACA0712129EA93D37A15E.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.33.42:732][646]LogSavePackage: Total save time: 20.97ms
+[2016.07.21-00.33.42:732][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.33.42:750][646]LogFileHelpers: Saving map 'Test' took 0.152
+[2016.07.21-00.33.42:779][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.33.42:906][646]LogSavePackage: Save=122.00ms
+[2016.07.21-00.33.42:906][646]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockBA977EE04A4B64313611A2862A97C375.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.33.42:910][646]LogSavePackage: Total save time: 129.75ms
+[2016.07.21-00.33.42:910][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.33.44:341][719]LogSavePackage: Save=14.01ms
+[2016.07.21-00.33.44:341][719]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTest3328CAF94AAEF995FFCD88ABF1604005.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.33.44:344][719]LogSavePackage: Total save time: 19.83ms
+[2016.07.21-00.33.44:344][719]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.34.31:419][746]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.34.31:518][746]BlueprintEditorCompileResults: Info [2076.22] Compile of BeatBlock successful! [in 98 ms]
+[2016.07.21-00.34.32:089][766]LogSavePackage: Save=13.96ms
+[2016.07.21-00.34.32:089][766]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Test69021D8A42F032BB0E0AB296BA531962.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.34.32:093][766]LogSavePackage: Total save time: 22.44ms
+[2016.07.21-00.34.32:093][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.34.32:126][766]LogFileHelpers: Saving map 'Test' took 0.240
+[2016.07.21-00.34.32:152][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.34.32:252][766]LogSavePackage: Save=93.94ms
+[2016.07.21-00.34.32:252][766]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlock62DEA0B24DA4D4A95D1F6FAACA048A32.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.34.32:255][766]LogSavePackage: Total save time: 101.72ms
+[2016.07.21-00.34.32:255][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.34.39:228][169]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.34.39:328][169]BlueprintEditorCompileResults: Info [2084.03] Compile of BeatBlock successful! [in 98 ms]
+[2016.07.21-00.34.39:668][179]LogSavePackage: Save=13.38ms
+[2016.07.21-00.34.39:668][179]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Test046CBB9A4F0C685C1F9117A325767EE2.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.34.39:671][179]LogSavePackage: Total save time: 20.93ms
+[2016.07.21-00.34.39:671][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.34.39:691][179]LogFileHelpers: Saving map 'Test' took 0.153
+[2016.07.21-00.34.39:720][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.34.39:827][179]LogSavePackage: Save=102.34ms
+[2016.07.21-00.34.39:827][179]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockA175A85A435582F3CDCDD29BC550CCA1.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.34.39:831][179]LogSavePackage: Total save time: 110.01ms
+[2016.07.21-00.34.39:831][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.34.41:026][236]LogSavePackage: Save=13.40ms
+[2016.07.21-00.34.41:026][236]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTestA13ADC7F490A22A36945209D5FC1245B.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.34.41:028][236]LogSavePackage: Total save time: 19.56ms
+[2016.07.21-00.34.41:029][236]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.34.59:684][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.34.59:785][700]LogSavePackage: Save=95.10ms
+[2016.07.21-00.34.59:785][700]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlock1323A12745D304AF1D74079438667025.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.34.59:788][700]LogSavePackage: Total save time: 102.31ms
+[2016.07.21-00.34.59:788][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.35.01:274][778]LogSavePackage: Save=13.67ms
+[2016.07.21-00.35.01:274][778]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTestAE78D76648E195FD69DC608AD2366993.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.35.01:277][778]LogSavePackage: Total save time: 19.81ms
+[2016.07.21-00.35.01:277][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.35.24:690][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.21-00.35.24:690][136]PIE: New page: PIE session: Test (Jul 20, 2016, 3:35:24 PM)
+[2016.07.21-00.35.24:690][136]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_Test
+[2016.07.21-00.35.24:694][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003435s)
+[2016.07.21-00.35.24:695][136]LogAIModule: Creating AISystem for world Test
+[2016.07.21-00.35.24:695][136]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2016.07.21-00.35.24:695][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/Test.Test to /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test (0.005029s)
+[2016.07.21-00.35.24:727][136]LogInit: XAudio2 using 'ASUS VS239 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.21-00.35.24:740][136]LogInit: FAudioDevice initialized.
+[2016.07.21-00.35.24:775][136]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.07.21-00.35.24:778][136]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2016.07.20-20.35.24
+[2016.07.21-00.35.24:778][136]LogWorld: Bringing up level for play took: 0.002206
+[2016.07.21-00.35.24:781][136]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_Test 0.678
+[2016.07.21-00.35.41:972][110]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.35.42:078][110]BlueprintEditorCompileResults: Info [2146.78] Compile of BeatBlock successful! [in 105 ms]
+[2016.07.21-00.35.42:474][122]LogSavePackage: Save=16.98ms
+[2016.07.21-00.35.42:474][122]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TestFF3AD6DD422F46C87CA5CEB23E4B2100.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.35.42:478][122]LogSavePackage: Total save time: 27.28ms
+[2016.07.21-00.35.42:478][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.35.42:496][122]LogFileHelpers: Saving map 'Test' took 0.180
+[2016.07.21-00.35.42:523][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.35.42:648][122]LogSavePackage: Save=117.50ms
+[2016.07.21-00.35.42:648][122]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockE3341C6B4BACB4E0740CB389F795B61A.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.35.42:652][122]LogSavePackage: Total save time: 126.89ms
+[2016.07.21-00.35.42:652][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.36.30:334][792]BlueprintLog: New page: Compile TwinStickPawn
+[2016.07.21-00.36.30:454][792]BlueprintEditorCompileResults: Info [2195.15] Compile of TwinStickPawn successful! [in 120 ms]
+[2016.07.21-00.36.30:987][811]LogSavePackage: Save=141.11ms
+[2016.07.21-00.36.30:987][811]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TwinStickPawn8B04E1EC42BFF871FFE5A7B23FD910F9.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.07.21-00.36.30:991][811]LogSavePackage: Total save time: 159.03ms
+[2016.07.21-00.36.30:991][811]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.07.21-00.36.32:051][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.21-00.36.32:052][867]PIE: New page: PIE session: Test (Jul 20, 2016, 3:36:32 PM)
+[2016.07.21-00.36.32:052][867]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_Test
+[2016.07.21-00.36.32:054][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001840s)
+[2016.07.21-00.36.32:054][867]LogAIModule: Creating AISystem for world Test
+[2016.07.21-00.36.32:054][867]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2016.07.21-00.36.32:054][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/Test.Test to /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test (0.002656s)
+[2016.07.21-00.36.32:080][867]LogInit: XAudio2 using 'ASUS VS239 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.21-00.36.32:088][867]LogInit: FAudioDevice initialized.
+[2016.07.21-00.36.32:122][867]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.07.21-00.36.32:125][867]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2016.07.20-20.36.32
+[2016.07.21-00.36.32:125][867]LogWorld: Bringing up level for play took: 0.001994
+[2016.07.21-00.36.32:127][867]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_Test 0.024
+[2016.07.21-00.36.42:230][382]LogSavePackage: Save=14.12ms
+[2016.07.21-00.36.42:230][382]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTest067EC2DC4568F15D1E409489245FB679.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.36.42:232][382]LogSavePackage: Total save time: 22.18ms
+[2016.07.21-00.36.42:232][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.37.18:803][709]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.37.18:888][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.07.21-00.37.18:997][709]BlueprintEditorCompileResults: Info [2243.70] Compile of BeatBlock successful! [in 194 ms]
+[2016.07.21-00.37.25:619][ 94]LogSavePackage: Save=13.74ms
+[2016.07.21-00.37.25:619][ 94]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Test9164675444B07C5CD91458BA699CE1D3.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.37.25:622][ 94]LogSavePackage: Total save time: 21.64ms
+[2016.07.21-00.37.25:622][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.37.25:640][ 94]LogFileHelpers: Saving map 'Test' took 0.171
+[2016.07.21-00.37.25:683][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.37.25:846][ 94]LogSavePackage: Save=154.55ms
+[2016.07.21-00.37.25:846][ 94]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockDE0E8F9D4DA0ACD9444037A3D1C59E77.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.37.25:849][ 94]LogSavePackage: Total save time: 164.66ms
+[2016.07.21-00.37.25:850][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.37.29:050][268]LogSavePackage: Save=13.68ms
+[2016.07.21-00.37.29:050][268]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTest3E943602489B92261E7234A4A2A268C4.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.37.29:051][268]LogSavePackage: Total save time: 19.67ms
+[2016.07.21-00.37.29:051][268]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.37.46:283][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.21-00.37.46:283][704]PIE: New page: PIE session: Test (Jul 20, 2016, 3:37:46 PM)
+[2016.07.21-00.37.46:284][704]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_Test
+[2016.07.21-00.37.46:294][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009934s)
+[2016.07.21-00.37.46:296][704]LogAIModule: Creating AISystem for world Test
+[2016.07.21-00.37.46:296][704]LogPlayLevel: PIE: World Init took: (0.002688s)
+[2016.07.21-00.37.46:297][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/Test.Test to /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test (0.013490s)
+[2016.07.21-00.37.46:375][704]LogInit: XAudio2 using 'ASUS VS239 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.21-00.37.46:407][704]LogInit: FAudioDevice initialized.
+[2016.07.21-00.37.46:535][704]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.07.21-00.37.46:546][704]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2016.07.20-20.37.46
+[2016.07.21-00.37.46:548][704]LogWorld: Bringing up level for play took: 0.009562
+[2016.07.21-00.37.46:576][704]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_Test 0.473
+[2016.07.21-00.37.46:577][704]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 1126
+[2016.07.21-00.37.46:577][704]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock_C:ExecuteUbergraph_BeatBlock
+
+[2016.07.21-00.38.33:464][352]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.38.33:589][352]BlueprintEditorCompileResults: Info [2318.29] Compile of BeatBlock successful! [in 125 ms]
+[2016.07.21-00.38.33:947][363]LogSavePackage: Save=12.93ms
+[2016.07.21-00.38.33:947][363]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TestD05502EC4593103E24E9138D734AE1C6.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.38.33:950][363]LogSavePackage: Total save time: 21.60ms
+[2016.07.21-00.38.33:950][363]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.38.33:969][363]LogFileHelpers: Saving map 'Test' took 0.162
+[2016.07.21-00.38.33:996][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.38.34:112][363]LogSavePackage: Save=110.87ms
+[2016.07.21-00.38.34:112][363]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockDF0C73C340C8EA78852361BA3C6AFCB2.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.38.34:116][363]LogSavePackage: Total save time: 118.47ms
+[2016.07.21-00.38.34:116][363]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.38.35:724][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.21-00.38.35:724][456]PIE: New page: PIE session: Test (Jul 20, 2016, 3:38:35 PM)
+[2016.07.21-00.38.35:725][456]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_Test
+[2016.07.21-00.38.35:726][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001708s)
+[2016.07.21-00.38.35:727][456]LogAIModule: Creating AISystem for world Test
+[2016.07.21-00.38.35:727][456]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2016.07.21-00.38.35:727][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/Test.Test to /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test (0.002526s)
+[2016.07.21-00.38.35:754][456]LogInit: XAudio2 using 'ASUS VS239 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.21-00.38.35:761][456]LogInit: FAudioDevice initialized.
+[2016.07.21-00.38.35:810][456]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.07.21-00.38.35:817][456]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2016.07.20-20.38.35
+[2016.07.21-00.38.35:817][456]LogWorld: Bringing up level for play took: 0.005902
+[2016.07.21-00.38.35:825][456]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_Test -0.277
+[2016.07.21-00.38.36:700][507]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 1105
+[2016.07.21-00.38.36:700][507]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/BeatBlock.BeatBlock_C:ExecuteUbergraph_BeatBlock
+
+[2016.07.21-00.38.51:777][ 71]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.38.51:887][ 71]BlueprintEditorCompileResults: Info [2336.59] Compile of BeatBlock successful! [in 109 ms]
+[2016.07.21-00.38.52:378][ 89]LogSavePackage: Save=14.23ms
+[2016.07.21-00.38.52:378][ 89]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TestB979BC564A4140F54FD99982487B5A2F.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.38.52:381][ 89]LogSavePackage: Total save time: 21.54ms
+[2016.07.21-00.38.52:381][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.38.52:398][ 89]LogFileHelpers: Saving map 'Test' took 0.155
+[2016.07.21-00.38.52:435][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.38.52:556][ 89]LogSavePackage: Save=114.52ms
+[2016.07.21-00.38.52:556][ 89]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockEC32F96E486D0003DFF0779BC86F4803.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.38.52:559][ 89]LogSavePackage: Total save time: 121.97ms
+[2016.07.21-00.38.52:559][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.38.55:653][254]LogSavePackage: Save=28.84ms
+[2016.07.21-00.38.55:653][254]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTest4747F7CE4751E295BB1FA987C0DE4D91.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.38.55:656][254]LogSavePackage: Total save time: 36.30ms
+[2016.07.21-00.38.55:656][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.39.16:830][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.39.16:932][920]LogSavePackage: Save=94.73ms
+[2016.07.21-00.39.16:932][920]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlock96C8557D4D98F29CE35A28A5C6DE8B65.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.39.16:936][920]LogSavePackage: Total save time: 103.75ms
+[2016.07.21-00.39.16:936][920]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.39.29:682][685]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.39.29:790][685]BlueprintEditorCompileResults: Info [2374.49] Compile of BeatBlock successful! [in 108 ms]
+[2016.07.21-00.39.53:542][ 70]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.39.53:648][ 70]BlueprintEditorCompileResults: Info [2398.35] Compile of BeatBlock successful! [in 106 ms]
+[2016.07.21-00.39.54:282][ 98]LogSavePackage: Save=13.29ms
+[2016.07.21-00.39.54:282][ 98]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TestE614E17A45DF0640FF51CB9C95FCC48F.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.39.54:284][ 98]LogSavePackage: Total save time: 20.61ms
+[2016.07.21-00.39.54:284][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.39.54:302][ 98]LogFileHelpers: Saving map 'Test' took 0.146
+[2016.07.21-00.39.54:328][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.39.54:425][ 98]LogSavePackage: Save=92.48ms
+[2016.07.21-00.39.54:425][ 98]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockDB4260724B4E02B450C0838444B62CD3.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.39.54:428][ 98]LogSavePackage: Total save time: 98.81ms
+[2016.07.21-00.39.54:428][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.39.55:977][179]LogSavePackage: Save=13.23ms
+[2016.07.21-00.39.55:977][179]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTest04821B87467BF505CF46F49961B3FAA0.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.39.55:980][179]LogSavePackage: Total save time: 20.09ms
+[2016.07.21-00.39.55:980][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.40.20:798][ 72]BlueprintLog: New page: Compile BeatBlock
+[2016.07.21-00.40.20:973][ 72]BlueprintEditorCompileResults: Info [2425.67] Compile of BeatBlock successful! [in 174 ms]
+[2016.07.21-00.40.21:309][ 82]LogSavePackage: Save=12.84ms
+[2016.07.21-00.40.21:309][ 82]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Test071E588F4A03E8562FE73DA21D044423.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap'
+[2016.07.21-00.40.21:312][ 82]LogSavePackage: Total save time: 20.53ms
+[2016.07.21-00.40.21:312][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Maps/Test.umap
+[2016.07.21-00.40.21:330][ 82]LogFileHelpers: Saving map 'Test' took 0.147
+[2016.07.21-00.40.21:357][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BeatBlock" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset" SILENT=true
+[2016.07.21-00.40.21:460][ 82]LogSavePackage: Save=95.79ms
+[2016.07.21-00.40.21:460][ 82]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/BeatBlockEFF62F1442BD65DD626AAAB89FAD6FD9.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset'
+[2016.07.21-00.40.21:464][ 82]LogSavePackage: Total save time: 105.26ms
+[2016.07.21-00.40.21:464][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/BeatBlock.uasset
+[2016.07.21-00.40.22:755][149]LogSavePackage: Save=13.13ms
+[2016.07.21-00.40.22:755][149]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/UEDPCTest70739CB84DFA60860FB4FC9730BCB60F.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap'
+[2016.07.21-00.40.22:757][149]LogSavePackage: Total save time: 19.22ms
+[2016.07.21-00.40.22:757][149]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/Autosaves/Game/TwinStickBP/Maps/UEDPCTest.umap
+[2016.07.21-00.41.06:439][146]LogEditorViewport: Clicking Background
+[2016.07.21-00.41.08:445][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.07.21-00.41.11:246][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.21-00.41.11:555][198]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_TwinStickProjectile_C_0' or package '/Engine/Transient'.
+[2016.07.21-00.41.11:555][198]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_TwinStickProjectile_C_1' or package '/Engine/Transient'.
+[2016.07.21-00.41.11:555][198]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_TwinStickProjectile_C_154' or package '/Engine/Transient'.
+[2016.07.21-00.41.11:555][198]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_TwinStickProjectile_C_153' or package '/Engine/Transient'.
+[2016.07.21-00.41.38:473][844]LogSavePackage: Save=111.49ms
+[2016.07.21-00.41.38:473][844]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/TwinStickPawn71E2BCBD4361CBA1962A7CBE3F1D1031.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.07.21-00.41.38:479][844]LogSavePackage: Total save time: 127.74ms
+[2016.07.21-00.41.38:479][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.07.21-00.41.38:485][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/PlayerPawn" FILE="../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/PlayerPawn.uasset" SILENT=true
+[2016.07.21-00.41.38:496][844]LogSavePackage: Save=9.36ms
+[2016.07.21-00.41.38:496][844]LogSavePackage: Moving '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Saved/PlayerPawnB5BE5CEA43B8AF03B733DE80693AE43A.tmp' to '../../../../../../Users/Adam/Documents/Unreal Projects/Beats/Content/TwinStickBP/Blueprints/PlayerPawn.uasset'
+[2016.07.21-00.41.38:499][844]LogSav
